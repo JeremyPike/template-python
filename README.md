@@ -1,4 +1,7 @@
-# template-python
+# Python template project
+
+![CI](https://github.com/JeremyPike/template-python/actions/workflows/ci.yml/badge.svg)
+
 
 Template project for python projects.
 
