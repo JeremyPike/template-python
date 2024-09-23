@@ -24,7 +24,7 @@ To run this project, you're required to have the following software installed on
 2. Clone this repository and `cd` into the project directory.
 3. Install the template package including the testing and linting dependencies:
     ```bash
-    pip install .[test,lint]
+    pip install .[testing,linting]
     ```
 
 ### Running tests and coverage reporting
