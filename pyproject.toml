@@ -14,9 +14,9 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-test = [
+testing = [
     "coverage",
 ]
-lint = [
+linting = [
     "flake8",
 ]
