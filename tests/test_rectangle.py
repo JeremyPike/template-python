@@ -1,6 +1,7 @@
 import unittest
 from template.rectangle import Rectangle
 
+
 class TestRectangle(unittest.TestCase):
     """Minimal unit tests for the Rectangle class."""
 
@@ -13,6 +14,7 @@ class TestRectangle(unittest.TestCase):
         """Test that the width is returned correctly."""
         rect = Rectangle(4, 5)
         self.assertEqual(rect.get_width(), 4)
+
 
 if __name__ == '__main__':
     unittest.main()
