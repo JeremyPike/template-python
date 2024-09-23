@@ -1,0 +1,22 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "template"
+authors = [{name = "Jeremy Pike", email = "j.a.pike@bham.ac.uk"}]
+readme = "README.md"
+version = "0.1.0"
+description = "Template project for python projects."
+requires-python = ">=3.9"
+
+dependencies = [
+]
+
+[project.optional-dependencies]
+testing = [
+    "coverage",
+]
+linting = [
+    "flake8",
+]
